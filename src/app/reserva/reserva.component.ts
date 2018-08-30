@@ -6,7 +6,7 @@ import { EstacionamentoService } from '../estacionamento.service';
 @Component({
   selector: 'app-reserva',
   templateUrl: './reserva.component.html',
-  styleUrls: ['./reserva.component.css']
+  styleUrls: ['./reserva.component.scss']
 })
 export class ReservaComponent implements OnInit {
 

@@ -1,43 +1,35 @@
 <app-navbar-black></app-navbar-black>
 
 <div class="container">
-  <span>
+  <span class="local">
     <p>Veja as opções de estacionamento para: <strong>São Paulo</strong></p>
   </span>
 
-  <div class="columns is-mobile" *ngFor="let estacionamento of estacionamento">
-    <div class="column">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <iframe [src]="estacionamento.imagemLocal" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
-                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-              </figure>
+    <div class="estacionamentos" >
+        <div class="card" *ngFor="let estacionamento of estacionamento">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0844413841774!2d-46.65456008445806!3d-23.565410567628213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c794a7aa7f%3A0x5d4b0e4727eac0f6!2sEstacionamento+Paulista+ltda!5e0!3m2!1spt-BR!2sbr!4v1535662286469"
+            width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <i class="fas fa-parking"></i>
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">{{estacionamento.nomeEstacionamento}}</p>
+                <p class="subtitle is-6">{{estacionamento.rua}}</p>
+              </div>
             </div>
-            <div class="media-content">
-              <p class="title is-4">{{estacionamento.nomeEstacionamento}}</p>
-              <p class="subtitle is-6">{{estacionamento.rua}}</p>
+            <div class="content">
+              <div class="media-right">
+                Quantidade de vagas: {{estacionamento.qtdVagas}}
+                <a class="button is-success">Reserve</a>
+              </div>
             </div>
-          </div>
-
-          <div class="content">
-            {{estacionamento.qtdVagas}}
-            <a>@bulmaio</a>.
-            <a href="#">#css</a> <a href="#">#responsive</a>
-            <br>
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 </div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2243008739592!2d-46.659362084457975!3d-23.560386367442696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cc106fbfd7%3A0xfb7a6300db205ba3!2sMultiPark!5e0!3m2!1spt-BR!2sbr!4v1535658439559"
-        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
