@@ -1,0 +1,6 @@
+footer li:before {
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #147efb;
+}

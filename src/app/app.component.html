@@ -1,20 +1,49 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+ <section class="hero is-medium is-bold">
+    <div class="hero-head">
+      <app-navbar></app-navbar>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Locus
+        </h1>
+        <h2 class="subtitle">
+          O estacionamento ideal para você ao seu alcance
+        </h2>
+        <a class="button is-info is-large">Reserve agora!</a>
+      </div>
+    </div>
+  </section>
 
+  <div class="box cta">
+    <p class="has-text-centered">
+      <span class="tag is-primary"><i class="fas fa-parking"></i></span> O jeito mais inteligente de estacionar seu carro com segurança!
+    </p>
+  </div>
+
+ <section class="container">
+  <app-cards></app-cards>
+ </section>
+
+<section class="container">
+  <div class="depoimentos">
+    <div class="dep">
+      <div class="depo1"></div>
+      <p>"<strong>Jennifer</strong> - Adorei a experiência, vou repetir com certeza!"</p>
+    </div>
+    <div class="dep">
+      <div class="depo2"></div>
+      <p>"<strong>Marcos</strong> - Atendimento excelente."</p>
+    </div>
+    <div class="dep">
+      <div class="depo3"></div>
+      <p>"<strong>Lucas</strong> - Fácil e rápido de usar, nota 1000!"</p>
+    </div>
+    <div class="dep">
+      <div class="depo4"></div>
+      <p>"<strong>Gabriela</strong> - Minha escolha na hora de reservar uma vaga."</p>
+    </div>
+  </div>
+</section>
+
+ <app-footer></app-footer>
