@@ -1,0 +1,296 @@
+{
+    "estacionamento": [
+        {
+            "estado": "SP",
+            "cidade": "São Paulo",
+            "rua": "Av. Paulista, 1009",
+            "nomeEstacionamento": "Estacionamento Paulista ltda",
+            "imagemLocal": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2243008739592!2d-46.659362084457975!3d-23.560386367442696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cc106fbfd7%3A0xfb7a6300db205ba3!2sMultiPark!5e0!3m2!1spt-BR!2sbr!4v1535658439559",
+            "qtdVagas": 5,
+            "vagas": [{
+                    "idVaga": 1,
+                    "numero": 1,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 2,
+                    "numero": 2,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 3,
+                    "numero": 3,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 4,
+                    "numero": 4,
+                    "reservada": true,
+                    "disponivel": true
+                }
+            ],
+            "empresasConveniadas": [{
+                    "nome": "Itau",
+                    "logotipo": "https://img.ibxk.com.br/2013/09/03/03195403768.jpg"
+                },
+                {
+                    "nome": "Mc Donalds",
+                    "logotipo": "http://www.portaldomarketing.net.br/wp-content/uploads/2014/01/mcdonalds-logo.jpg"
+                },
+                {
+                    "nome": "Pizza Hut",
+                    "logotipo": "https://botw-pd.s3.amazonaws.com/styles/logo-original-577x577/s3/112014/pizza_hut_new_logo_2014.png?itok=CBDMTY_A"
+                }
+            ]
+        },
+        {
+            "estado": "SP",
+            "cidade": "São Paulo",
+            "rua": "Avenida Paulista, 648",
+            "nomeEstacionamento": "Estacionamento Paulista Park",
+            "imagemLocal": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2243008739592!2d-46.659362084457975!3d-23.560386367442696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cc106fbfd7%3A0xfb7a6300db205ba3!2sMultiPark!5e0!3m2!1spt-BR!2sbr!4v1535658439559",
+            "qtdVagas": 10,
+            "vagas": [{
+                    "idVaga": 1,
+                    "numero": 1,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 2,
+                    "numero": 2,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 3,
+                    "numero": 3,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 4,
+                    "numero": 4,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 5,
+                    "numero": 5,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 6,
+                    "numero": 6,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 7,
+                    "numero": 7,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 8,
+                    "numero": 8,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 9,
+                    "numero": 9,
+                    "reservada": false,
+                    "disponivel": false
+                }
+            ],
+            "empresasConveniadas": [{
+                    "nome": "Mc Donalds",
+                    "logotipo": "http://www.portaldomarketing.net.br/wp-content/uploads/2014/01/mcdonalds-logo.jpg"
+                },
+                {
+                    "nome": "Pizza Hut",
+                    "logotipo": "https://botw-pd.s3.amazonaws.com/styles/logo-original-577x577/s3/112014/pizza_hut_new_logo_2014.png?itok=CBDMTY_A"
+                }
+            ]
+        },
+        {
+            "estado": "SP",
+            "cidade": "São Paulo",
+            "rua": "Avenida Paulista, 1650",
+            "nomeEstacionamento": "Rede Park",
+            "imagemLocal": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2243008739592!2d-46.659362084457975!3d-23.560386367442696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cc106fbfd7%3A0xfb7a6300db205ba3!2sMultiPark!5e0!3m2!1spt-BR!2sbr!4v1535658439559",
+            "qtdVagas": 14,
+            "vagas": [{
+                    "idVaga": 1,
+                    "numero": 1,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 2,
+                    "numero": 2,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 3,
+                    "numero": 3,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 4,
+                    "numero": 4,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 5,
+                    "numero": 5,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 6,
+                    "numero": 6,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 7,
+                    "numero": 7,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 8,
+                    "numero": 8,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 9,
+                    "numero": 9,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 10,
+                    "numero": 10,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 11,
+                    "numero": 11,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 12,
+                    "numero": 12,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 13,
+                    "numero": 13,
+                    "reservada": false,
+                    "disponivel": false
+                }
+            ],
+            "empresasConveniadas": [{
+                    "nome": "Itau",
+                    "logotipo": "https://img.ibxk.com.br/2013/09/03/03195403768.jpg"
+                },
+                {
+                    "nome": "Pizza Hut",
+                    "logotipo": "https://botw-pd.s3.amazonaws.com/styles/logo-original-577x577/s3/112014/pizza_hut_new_logo_2014.png?itok=CBDMTY_A"
+                }
+            ]
+        },
+        {
+            "estado": "SP",
+            "cidade": "São Paulo",
+            "rua": "Avenida Paulista, 1754",
+            "nomeEstacionamento": "MultiPark",
+            "imagemLocal": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2243008739592!2d-46.659362084457975!3d-23.560386367442696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cc106fbfd7%3A0xfb7a6300db205ba3!2sMultiPark!5e0!3m2!1spt-BR!2sbr!4v1535658439559",
+            "qtdVagas": 10,
+            "vagas": [{
+                    "idVaga": 1,
+                    "numero": 1,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 2,
+                    "numero": 2,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 3,
+                    "numero": 3,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 4,
+                    "numero": 4,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 5,
+                    "numero": 5,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 6,
+                    "numero": 6,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 7,
+                    "numero": 7,
+                    "reservada": false,
+                    "disponivel": false
+                },
+                {
+                    "idVaga": 8,
+                    "numero": 8,
+                    "reservada": true,
+                    "disponivel": true
+                },
+                {
+                    "idVaga": 9,
+                    "numero": 9,
+                    "reservada": false,
+                    "disponivel": false
+                }
+            ],
+            "empresasConveniadas": [{
+                    "nome": "Itau",
+                    "logotipo": "https://img.ibxk.com.br/2013/09/03/03195403768.jpg"
+                },
+                {
+                    "nome": "Mc Donalds",
+                    "logotipo": "http://www.portaldomarketing.net.br/wp-content/uploads/2014/01/mcdonalds-logo.jpg"
+                },
+                {
+                    "nome": "Pizza Hut",
+                    "logotipo": "https://botw-pd.s3.amazonaws.com/styles/logo-original-577x577/s3/112014/pizza_hut_new_logo_2014.png?itok=CBDMTY_A"
+                }
+            ]
+        }
+    ]
+}
+
+
