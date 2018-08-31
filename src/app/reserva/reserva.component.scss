@@ -1,11 +1,35 @@
-.estacionamentos {
-    display: flex;
-    flex-wrap: wrap;
-    
-  }
-
-  .local {
+.local {
     padding: 20px;
   }
 
 
+.card.large {
+  height: 600px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+  border-radius: 5px;
+}
+
+.media-content {
+  overflow: hidden;
+}
+
+.title.no-padding {
+  margin-bottom: 0 !important;
+}
+
+.row.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.fas.fa-parking {
+  font-size: 2em;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+}
