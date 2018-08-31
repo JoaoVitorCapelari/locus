@@ -3,6 +3,7 @@ import {Component, Input, OnInit} from '@angular/core';
 import { Estacionamento } from '../estacionamento.model';
 import { EstacionamentoService } from '../estacionamento.service';
 import { DomSanitizer } from '@angular/platform-browser';
+import {log} from 'util';
 
 @Component({
   selector: 'app-reserva',
@@ -19,6 +20,7 @@ export class ReservaComponent implements OnInit {
   ngOnInit() {
     this.estacionamentoService.estacioanmento()
       .subscribe(estacionamento => this.estacionamento = estacionamento);
+    console.log(this.estacionamento.empresasConveniadas);
   }
 
   url(image) {

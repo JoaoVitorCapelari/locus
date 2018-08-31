@@ -1,5 +1,5 @@
-.hero-body
-{background-image: url(../../assets/images/parking.jpg);
+.hero-body {
+  background-image: url(../../assets/images/parking.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,16 +14,7 @@
   margin: 15px 0;
   font-family: 'Raleway', sans-serif;
 }
-.author-image {
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  width: 60px;
-  height: 60px;
-  margin-left: -30px;
-  border: 3px solid #ccc;
-  border-radius: 50%;
-}
+
 .media-center {
   display: block;
   margin-bottom: 1rem;
@@ -44,19 +35,16 @@ div.column.is-8:first-child {
   line-height: 2;
 }
 .article-subtitle {
-  color: #909AA0;
   margin-bottom: 3rem;
 }
 .article-body {
   line-height: 1.4;
   margin: 0 6rem;
 }
-.promo-block .container {
-  margin: 1rem 5rem;
-}
 
 .title {
   font-family: 'Raleway', sans-serif;
+  color: #0f2c3e;
 }
 
 h3 {
@@ -65,4 +53,8 @@ h3 {
 
 p {
   font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 2.4em;
 }

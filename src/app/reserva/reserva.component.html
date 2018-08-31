@@ -16,16 +16,18 @@
       </div>
       <div class="card-content">
         <div class="media">
-          <div class="media-left">
-            <figure class="image is-96x96">
-              <i class="fas fa-parking"></i>
-            </figure>
-          </div>
+          <!--<div class="media-left">-->
+            <!--<figure class="image is-96x96">-->
+              <!--<i class="fas fa-parking"></i>-->
+            <!--</figure>-->
+          <!--</div>-->
           <div class="media-content">
-            <p class="title is-4 no-padding">{{estacionamento.nomeEstacionamento}}</p>
-            <p><span class="title is-6"># de vagas: <span>{{estacionamento.vagas.numero}}</span></span></p>
-            <p class="subtitle is-6">{{estacionamento.rua}}</p>
-            <span>{{estacionamento.cidade}} - {{estacionamento.estado}}</span>
+            <p class="title is-4 no-padding"> {{estacionamento.nomeEstacionamento}}</p>
+            <p><span class="title is-6">Quantidade total de vagas: <span>{{estacionamento.qtdVagas}}</span></span></p>
+            <p class="subtitle is-6">{{estacionamento.rua}} - <span>{{estacionamento.cidade}} - {{estacionamento.estado}}</span></p>
+            <p><span><strong>Parceiros:</strong></span></p>
+            <p><img class="logo" [src]="estacionamento.empresasConveniadas[0].logotipo" alt="logo">   <img  class="logo" [src]="estacionamento.empresasConveniadas[1].logotipo"
+                                                                                                           alt="logo"></p>
           </div>
         </div>
         <div class="content">
