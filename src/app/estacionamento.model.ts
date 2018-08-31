@@ -1,10 +1,10 @@
 export interface Estacionamento {
-  estado: string
-  cidade: string
-  rua: string
-  nomeEstacionamento: string
-  imagemLocal: string
-  qtdVagas: number
+  estado: string;
+  cidade: string;
+  rua: string;
+  nomeEstacionamento: string;
+  imagemLocal: string;
+  qtdVagas: number;
   vagas: [
       {
         idVaga: number,
@@ -12,11 +12,11 @@ export interface Estacionamento {
         reservada: boolean,
         disponivel: boolean
       }
-    ]
+    ];
   empresasConveniadas: [
       {
         nome: string,
         logotipo: string
       }
-    ]
+    ];
 }
